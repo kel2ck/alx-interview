@@ -7,17 +7,12 @@ Method that determines the number of minmum operations given n characters
 def minOperations(n):
     """
     Calculates the fewest number of operations needed to obtain 
-                        exactly `n` 'H' characters in the file.
-
-    Args:
-        n (int): The target number of 'H' characters.
+    exactly `n` 'H' characters in the file.
 
     Returns:
-        int: The minimum number of operations required.
-             Returns 0 if `n` is not an integer.
+        integer: returns 0 if n is not an integer.
 
     """
-
     # Check if `n` is not an integer
     if not isinstance(n, int):
         return 0
